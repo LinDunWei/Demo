@@ -1,0 +1,73 @@
+*{margin: 0;padding: 0;}
+ol,ul{list-style: none;}
+img{ vertical-align: top;}
+.banner{
+    width: 720px;
+    height: 380px;
+    margin: 100px auto;
+    position: relative;
+    overflow: hidden;
+}
+.banner .slider{
+    width: 720px;
+    height: 380px;
+    position: relative;
+}
+.banner .slider ul{
+    width: 1440px;
+    height: 380px;
+}
+.banner .slider li.li-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 720px;
+    height: 380px;
+}
+
+
+
+
+.banner .control{
+    position: absolute;
+    bottom: 12px;
+    right: 19px;
+    z-index: 3;
+}
+.banner .control ol li{
+    display: inline-block;
+    font-size: 14px;
+    width: 9px;
+    height: 9px;
+    background: #fff;
+    border-radius: 2em;
+    margin-left: 6px;
+    text-indent: -2000px;
+    cursor: pointer;
+}
+.banner .control ol li.j-crt{
+    background: #f7311f;
+}
+
+
+.banner .arr{
+    display: none;
+}
+.banner .l-btn{
+    width: 37px;
+    height: 63px;
+    background: url(../image/btn.png) no-repeat;
+    position: absolute;
+    top: 155px;
+    cursor: pointer;
+}
+.banner .r-btn{
+    width: 37px;
+    height: 63px;
+    background: url(../image/btn.png) no-repeat;
+    position: absolute;
+    top: 155px;
+    right: 0px;
+    background-position: 0 -126px;
+    cursor: pointer;
+}
